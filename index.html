@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoneer bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+<div class="login-area">
+    <div class="container">
+        <h1 class="text-center mt-5">My Bank</h1>
+    </div>
+    <div class="container">
+       <div class="row">
+           <div class="col-lg-6 m-auto p-5">
+            <form action="" class="form shadow p-5 mt-5">
+                <h4 class="text-muted"> login</h4>
+                <div class="form-group mb-3">
+                    <input type="email" class="form-control email" placeholder="example@exapmle.com">
+                </div>
+                <div class="form-group mb-3">
+                    <input type="password" class="form-control password" placeholder="*******">
+                </div>
+                <button type="submit" class="btn btn-success text-capitalize login">login</button>
+            </form>
+           </div>
+       </div>
+    </div>
+</div>
+<div class="bank-area mt-5">
+    
+<div class="container">
+   
+    <div class="row">
+        <div class="col-lg-4 p-lg-5">
+            <div class="card">
+                <div class="card-body text-center p-3 bg-primary text-white">
+                    <h3>Deposit</h3>
+                    <h1><span>$</span><span class="ms-2 deposit-amount">0</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 p-lg-5">
+            <div class="card">
+                <div class="card-body text-center p-3 bg-success text-white">
+                    <h3>Balance</h3>
+                    <h1><span>$</span><span class="ms-2 balance-amount">0</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 p-lg-5">
+            <div class="card">
+                <div class="card-body text-center p-3 bg-danger text-white">
+                    <h3>Withdraw</h3>
+                    <h1><span>$</span><span class="ms-2 withdraw-amount">0</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 p-lg-5 mt-2">
+            <form action="" class="form bank-form shadow p-3 bg-white">
+                <h3 class="text-success">Deposit</h3>
+                <input type="text" class="form-control mb-3 deposit">
+                <button type="submit" class="btn btn-success deposit-button" >deposit</button>
+            </form>
+        </div>
+        <div class="col-lg-6 p-lg-5 mt-2">
+            <form action="" class="form bank-form shadow p-3 bg-white">
+                <h3 class="text-danger">Withdraw</h3>
+                <input type="text" class="form-control mb-3 withdraw">
+                <button type="submit" class="btn btn-danger withdraw-button" >Withdraw</button>
+            </form>
+        </div>
+    </div>
+</div>
+<button type="button" class="logout m-5 d-block ms-auto btn btn-primary">logout</button>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
